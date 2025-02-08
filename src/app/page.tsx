@@ -2,7 +2,7 @@
 import React from "react";
 import Sidebar from "@/components/Sidebar";
 
-export const page = () => {
+export default function Page() {  // ✅ Yeh sahi tarika hai
   return (
     <div>
       <div className="flex">
@@ -12,9 +12,6 @@ export const page = () => {
         </div>
       </div>
       <Sidebar />
-      
     </div>
   );
-};
-
-export default page;
+}
