@@ -2,7 +2,7 @@
 import React from "react";
 import Sidebar from "@/components/Sidebar";
 
-export default function Page() {  // ✅ Yeh sahi tarika hai
+export default function Page() {  
   return (
     <div>
       <div className="flex">
