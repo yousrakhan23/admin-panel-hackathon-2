@@ -1,5 +1,10 @@
  Admin Dashboard
 
+ CREDENTIALS FOR SIGN IN:
+ enter the name: yousra
+ password is: 2326
+ 
+
 Overview
 This Admin Dashboard is a Next.js application designed to manage and monitor orders. It includes authentication for admin login and a dashboard to view, filter, update, and delete orders. The dashboard interacts with Sanity CMS for order management.
 
