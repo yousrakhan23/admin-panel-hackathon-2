@@ -26,7 +26,7 @@ export default function SignIn() {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-[#e9ecef] to-[#40d5e2] dark:bg-gradient-to-br dark:from-[#e9ecef] dark:to-[#40d5e2]">
       <Card className="w-full max-w-md">
         <CardHeader>
           <CardTitle className="text-2xl font-bold text-center">Sign In</CardTitle>
@@ -35,14 +35,14 @@ export default function SignIn() {
           <form onSubmit={handleSubmit} className="space-y-4">
             <Input
               type="text"
-              placeholder="Username"
+              placeholder="yousra"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
               required
             />
             <Input
               type="password"
-              placeholder="Password"
+              placeholder="2326"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
